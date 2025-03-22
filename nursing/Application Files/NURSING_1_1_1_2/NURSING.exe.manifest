@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="NURSING.exe" version="1.1.1.2" publicKeyToken="23fe39587b04729b" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="nurse_user_icon_195532.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="NURSING" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="NURSING.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.dll" size="4994080">
+      <assemblyIdentity name="EntityFramework" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ziVXinScF6VZgyNAAErBryvzWUt5eVrlP4yrCZmej/Y=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.SqlServer.dll" size="592416">
+      <assemblyIdentity name="EntityFramework.SqlServer" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>oNz5dcfjoUltjljMlyIQtM+RGT5HTSyGighpx2Q63lo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NURSING.exe" size="1765960">
+      <assemblyIdentity name="NURSING" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>qEfeBhEBXVOTVx90TH2WlhxUFElvsRQYUc9SEJk5UCY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ar\NURSING.resources.dll" size="270848">
+      <assemblyIdentity name="NURSING.resources" version="1.0.0.0" language="ar" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>MhxfUZl8uh9ic4/Rls0GQMUabEPXzNIJ7kgIVbrNq3E=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ar-IQ\NURSING.resources.dll" size="62976">
+      <assemblyIdentity name="NURSING.resources" version="1.0.0.0" language="ar-IQ" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rUGJHQF5YF8EABDJ5lBTpQl26Xhmlg0T2SIiPUVerAI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ar-KW\NURSING.resources.dll" size="62976">
+      <assemblyIdentity name="NURSING.resources" version="1.0.0.0" language="ar-KW" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ubVhyOw+H57liALW1e3MI6HuOoZTNpzPyAtji9CoYIY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="fr\NURSING.resources.dll" size="62976">
+      <assemblyIdentity name="NURSING.resources" version="1.0.0.0" language="fr" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>W5keXtW2CB0IdcggHHkHnGFxaFN3V2rnBQ0zd6DaDEw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ku\NURSING.resources.dll" size="62976">
+      <assemblyIdentity name="NURSING.resources" version="1.0.0.0" language="ku" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>AVSN5tu7OTDCXJNGyo3NZ7H1ad8vvuCgSjoHPth3Un0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ku-Arab\NURSING.resources.dll" size="62976">
+      <assemblyIdentity name="NURSING.resources" version="1.0.0.0" language="ku-Arab" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>i28OTFZqk6pGblglHUgEgLJ64krrXt+YKX1lK67GmU0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="db\Model1.Context.tt" size="22930">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iH6jRm/ArXOO/wVogKb8ZOaRJ6DvCC6vOswudwQkDnQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="db\Model1.tt" size="25275">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CabSpKm6yYNT6twBZzKHKM3v3aBYMgNzK0uSDYpHoWw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="nurse_user_icon_195532.ico" size="58942">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yYFLynKgftRyRRgjrwugMMWYp4mjlCZt/qExFMgqFY0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NURSING.exe.config" size="1314">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UqPScv24AtEN7lRyYp9ofxlwVeGfaOOBwirOmoUDHNs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="nursingDB.mdf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2PdLFBh7PDKY4LIuDZBkWIJXEqF4M3vHkilKaq3CW2s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="nursingDB_log.ldf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZRa2SEsiOGlHOIH8aRePZ104ECIkLSvTKjgkf1o5xOE=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN={4ADC91B2-680B-420F-807D-FC5E01417779}" issuerKeyHash="f8a9965aac07649c0d4c20f7334b14b87e3a8b1a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>77ETH76R3ZeFcEjPyUd0PoMEIxNss+foi3o6A7qTsj0=</DigestValue></Reference></SignedInfo><SignatureValue>m/QcvdZIXo9l5FJJHqTucyBCSyHBHzy1S3UGcvx1zl/HDpUv0Gk2ZfsmrNAhVPD6iBkTUclHi8vqzRUbvg07aOoPIVb60iPSW2afQ5YhdesHYH/ywL4SbUe4cfnZptCL7zPvBYrBBnEKp+JzVmcuWNxxB8UdRFrNxGpU0Pv1FX4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>yD3/xraO48TT2Z05xDmMKuEzF46qy7N79v91+ekGC8W9buGuebiFh0b4nS+MWGWvwMGGX48ZtkjM3pgylyVXfUpGCQAUghnCpLJCLh/GhAt0MyS2Lue7l0VxZjZAE/22aD5dyC4z9IIGiFbYEgWrM/UZ2GI4HSXGo5R8mrJGX1U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3db293ba033a7a8be8e7b36c132304833e7447c9cf48708597dd91be1f13b1ef" Description="" Url=""><as:assemblyIdentity name="NURSING.exe" version="1.1.1.2" publicKeyToken="23fe39587b04729b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN={4ADC91B2-680B-420F-807D-FC5E01417779}</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>JihsryvSsFq4k3kaHt1lykfQK5+4k2IAWwbwCc2Mong=</DigestValue></Reference></SignedInfo><SignatureValue>VwD2l9glPV+xvXpKFFX9YOsIaWDr9N76pTOSZZB5pANhuMqWvQkyqKsybKYp4zwskQk2m4HkbE41fX10er01M7q7kYiOajp8qGBpNqZ6tAMlRUDSz+io+UnctixuBHLVNEh7zgz6c3YFvu386udlfy+SZuWFG6ZGsiBzjAlsWA0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>yD3/xraO48TT2Z05xDmMKuEzF46qy7N79v91+ekGC8W9buGuebiFh0b4nS+MWGWvwMGGX48ZtkjM3pgylyVXfUpGCQAUghnCpLJCLh/GhAt0MyS2Lue7l0VxZjZAE/22aD5dyC4z9IIGiFbYEgWrM/UZ2GI4HSXGo5R8mrJGX1U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICMTCCAZqgAwIBAgIQEmSepLoMFJdPwxrV3ZbJ/DANBgkqhkiG9w0BAQsFADBXMVUwUwYDVQQDHkwAewA0AEEARABDADkAMQBCADIALQA2ADgAMABCAC0ANAAyADAARgAtADgAMAA3AEQALQBGAEMANQBFADAAMQA0ADEANwA3ADcAOQB9MB4XDTI1MDExNjEyNTgxMloXDTI2MDExNjE4NTgxMlowVzFVMFMGA1UEAx5MAHsANABBAEQAQwA5ADEAQgAyAC0ANgA4ADAAQgAtADQAMgAwAEYALQA4ADAANwBEAC0ARgBDADUARQAwADEANAAxADcANwA3ADkAfTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAyD3/xraO48TT2Z05xDmMKuEzF46qy7N79v91+ekGC8W9buGuebiFh0b4nS+MWGWvwMGGX48ZtkjM3pgylyVXfUpGCQAUghnCpLJCLh/GhAt0MyS2Lue7l0VxZjZAE/22aD5dyC4z9IIGiFbYEgWrM/UZ2GI4HSXGo5R8mrJGX1UCAwEAATANBgkqhkiG9w0BAQsFAAOBgQB0lwIYtv6n/0/cknXHQaxG+Kaz3LTKVQQCbFTI9+R3+Y8123NVTRFCXOUjwPqCGlU10FDyUFT3IMcOOfi0p8FWHz2Gis7IQV70p3xg1Bbxtd5HEJffHObXoBg6R0Xk9XRLzWaYjkrRS/tgFeoSOVwSl32Slv4kE6NKDcOdahsiMw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
